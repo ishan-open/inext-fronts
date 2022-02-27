@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.sp-wrapper {
+    --sp-layout-height: 100vh;
+}
+
+.sp-layout > .sp-stack {
+    height: calc(var(--sp-layout-height) - 2px)
+}
